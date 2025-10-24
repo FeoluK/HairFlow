@@ -1,0 +1,35 @@
+# Exclude checkpoints folder contents but keep the folder
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Exclude segmented_images folder contents but keep the folder
+segmented_images/*
+!segmented_images/.gitkeep
+
+# Exclude .npz files in synthetic_data (too large)
+synthetic_data/**/*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
