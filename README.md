@@ -33,7 +33,7 @@ synthetic_data/
 
 ### Additional Validation Data
 
-For more extensive validation data, the DiffLocks validation set provides high-quality hair capture data.
+For more extensive validation data, the DiffLocks validation set provides synthetic hair data.
 
 ## Usage
 
