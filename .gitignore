@@ -9,6 +9,9 @@ segmented_images/*
 # Exclude .npz files in synthetic_data (too large)
 synthetic_data/**/*.npz
 
+# Exclude DiffLocks inference data (large .npz outputs, not needed for segmentation)
+difflocks_inference_data/
+
 # Python
 __pycache__/
 *.py[cod]
