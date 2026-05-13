@@ -12,6 +12,10 @@ synthetic_data/**/*.npz
 # Exclude DiffLocks inference data (large .npz outputs, not needed for segmentation)
 difflocks_inference_data/
 
+# Local-only planning / research material (kept off the public repo)
+history.md
+pdfs/
+
 # Python
 __pycache__/
 *.py[cod]
